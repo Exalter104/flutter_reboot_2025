@@ -1,0 +1,61 @@
+name: flutter_boilerplate
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  another_flushbar: ^1.12.30
+  toastification: ^2.2.0
+  logger: ^2.4.0
+  line_icons: ^2.0.3
+  lottie: ^3.3.0
+  webview_flutter: ^4.8.0
+  path_provider: ^2.1.5
+  http: ^1.2.2
+  cached_network_image: ^3.4.1
+  flutter_riverpod: ^2.5.1
+  shared_preferences: ^2.3.2
+  smooth_page_indicator: ^1.2.0+3
+  hooks_riverpod: ^2.5.2
+  curved_navigation_bar: ^1.0.6
+  crystal_navigation_bar: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/logos/
+    - assets/fonts/
+    - assets/json/
+
+  # FONT: Satoshi (black, bold, medium, regular, light)
+  fonts:
+    - family: Satoshi
+      fonts:
+        - asset: assets/fonts/Satoshi-Regular.otf
+          weight: 400
+        - asset: assets/fonts/Satoshi-Bold.otf
+          weight: 600
+        - asset: assets/fonts/Satoshi-Medium.otf
+          weight: 500
+        - asset: assets/fonts/Satoshi-Light.otf
+          weight: 300
+        - asset: assets/fonts/Satoshi-Black.otf
+          weight: 900
